@@ -1,0 +1,192 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Sacramento&display=swap');
+@import url( 'https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Beth+Ellen&family=Sacramento&display=swap');
+
+body {
+  font-family: "Montserarat";
+}
+
+.HelloH2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3 rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserarat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+.top-content {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+  /* font-family: 'Beth Ellen', cursive;
+  font-family: 'Sacramento', cursive; */
+}
+
+.row {
+  padding-top: 4rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Beth Ellen', cursive;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserarat-Light";
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-img {
+  width: 23%;
+  /* padding-left: 4px px; */
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 89px;
+}
+
+#features {
+  padding: 5%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+/* testimonials section  */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 7%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section*/
+
+/* .card{
+ padding : 7% 15%;
+} */
+
+.row {
+  /* padding-top: 3rem; */
+  padding: 92px 41px;
+  width: 100%;
+}
+
+#pricing {
+  text-align: center;
+}
+
+.pricing-title {
+  text-align: center;
+  padding-top: 57px;
+}
+
+/* CTA Section  */
+
+#cta{
+  background-color: #ff4c68;
+  color : #fff;
+  padding : 7% 15% 3%;
+  text-align : center;
+}
+
+.cta-heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3.6rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding : 3%;
+    text-align: center;
+}
+
+.social-icon{
+  margin : 10px 20px;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+    margin : 51px;
+  }
+
+  #title .row{
+    text-align: left;
+  }
+}
+
